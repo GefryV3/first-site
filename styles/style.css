@@ -1,0 +1,71 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.main {
+  background: #0b7572;
+  min-height: 700px;
+  padding-top: 75px;
+  padding-bottom: 125px;
+}
+
+.main-title {
+  font-size: 28px;
+  line-height: 125%;
+  margin-bottom: 32px;
+  color: white;
+}
+
+.main-description {
+  font-size: 15px;
+  line-height: 150%;
+  margin-bottom: 32px;
+  color: white;
+}
+
+.main-link{
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 150%;
+  border-bottom: 3px solid #FFCE50;
+  padding-bottom: 5px;
+
+}
+
+.main-image {
+  margin: 40px auto 56px;
+}
+
+.services{
+  margin-top: -125px;
+}
+
+.services-shadow-container{
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 24px 27px 32px 32px;
+}
+
+.services-list{
+  padding: 0;
+  list-style-type: none;
+}
+.services-icon-container{
+  width: 68px;
+  height: 68px;
+  background-color: #e9e9ec;
+  border-radius: 68px;
+}
