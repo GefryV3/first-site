@@ -31,7 +31,7 @@ h2 {
   color: white;
 }
 
-.main-link{
+.main-link {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -39,33 +39,152 @@ h2 {
   text-decoration: none;
   font-size: 15px;
   line-height: 150%;
-  border-bottom: 3px solid #FFCE50;
+  border-bottom: 3px solid #ffce50;
   padding-bottom: 5px;
-
 }
 
 .main-image {
   margin: 40px auto 56px;
 }
 
-.services{
-  margin-top: -125px;
+.services {
+  margin-top: -140px;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 
-.services-shadow-container{
-  background-color: #FFFFFF;
+.services-shadow-container {
+  background-color: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   padding: 24px 27px 32px 32px;
 }
 
-.services-list{
+.services-list {
   padding: 0;
   list-style-type: none;
 }
-.services-icon-container{
+.services-icon-container {
   width: 68px;
   height: 68px;
   background-color: #e9e9ec;
   border-radius: 68px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  margin-top: 58px;
+}
+
+.contacts-title {
+  font-size: 28px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.contacts-list {
+  margin-top: 56px;
+  margin-bottom: 72px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts-list-item {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contacts-text-container {
+  margin-left: 40px;
+}
+
+.contacts-item-title {
+  color: #6b6b6c;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.contacts-item-link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #363738;
+}
+
+.clients {
+  background-color: #0b7572;
+  padding: 32px 0 32px;
+}
+
+.clients-title {
+  font-size: 28px;
+  line-height: 125%;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.clients-container {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 24px 16px;
+}
+
+.clients-top-title {
+  font-family: Exo 2;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 150%;
+  color: #ffffff;
+  background-color: #0b7572;
+  border-radius: 2px;
+  padding: 6px 16px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.clients-case {
+  background-color: #f9f9fb;
+  padding: 0 16px;
+}
+
+.clients-case p {
+  font-size: 14px;
+  line-height: 135%;
+  color: #6b6b6c;
+  margin-bottom: 10px;
+}
+
+.clients-case p strong {
+  font-weight: bold;
+  color: #363738;
+}
+
+.clients-case p a {
+  font-size: inherit;
+  line-height: inherit;
+  color: #363738;
+  text-decoration: none;
+}
+
+.clients-case-description {
+  display: flex;
+}
+
+.clients-case-description-text {
+  margin-left: 16px;
+}
+
+.clients-case > div:not(:last-child) {
+  border-bottom: 1px solid #d7d7dd;
+}
+
+.clients-case-description,
+.clients-case-contact,
+.clients-case-location {
+  padding: 16px 0;
 }
