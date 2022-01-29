@@ -188,3 +188,96 @@ h2 {
 .clients-case-location {
   padding: 16px 0;
 }
+
+.why-us-list {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 48px;
+}
+
+.why-us-item {
+  display: flex;
+}
+
+.why-us-icon-container {
+  width: 52px;
+  height: 52px;
+  border-radius: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e9e9ec;
+}
+
+.why-us-text-container {
+  width: 269px;
+  margin-left: 16px;
+}
+
+.why-us-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.why-us-item-description {
+  font-family: PT Sans;
+  font-size: 15px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+
+.our-works-title {
+  font-family: Exo 2;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.our-works-first-deskription {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  color: #6b6b6c;
+}
+
+.our-works-deskription-title {
+  font-family: Exo 2;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.our-works-second-text {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.our-works-second-deskription {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 345px;
+  padding: 24px;
+  padding-bottom: 8px;
+  color: #6B6B6C;
+}
+
+.our-works-second-deskription p strong {
+  font-family: Exo 2;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 135%;
+  margin-bottom: 0;
+}
