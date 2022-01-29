@@ -10,6 +10,9 @@ h2 {
   font-weight: 600;
 }
 
+h5 {
+}
+
 .main {
   background: #0b7572;
   min-height: 700px;
@@ -48,6 +51,7 @@ h2 {
 }
 
 .services {
+  margin-bottom: 64px;
   margin-top: -140px;
   padding-bottom: 16px;
   padding-top: 16px;
@@ -75,46 +79,6 @@ h2 {
   align-items: center;
 }
 
-.contacts {
-  margin-top: 58px;
-}
-
-.contacts-title {
-  font-size: 28px;
-  line-height: 125%;
-  color: #363738;
-}
-
-.contacts-list {
-  margin-top: 56px;
-  margin-bottom: 72px;
-  list-style-type: none;
-  padding: 0;
-}
-
-.contacts-list-item {
-  display: flex;
-  margin-top: 50px;
-}
-
-.contacts-text-container {
-  margin-left: 40px;
-}
-
-.contacts-item-title {
-  color: #6b6b6c;
-  font-size: 15px;
-  line-height: 150%;
-}
-
-.contacts-item-link {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  text-decoration: none;
-  color: #363738;
-}
-
 .clients {
   background-color: #0b7572;
   padding: 32px 0 32px;
@@ -134,7 +98,7 @@ h2 {
 }
 
 .clients-top-title {
-  font-family: Exo 2;
+  font-family: "Exo 2";
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -189,14 +153,26 @@ h2 {
   padding: 16px 0;
 }
 
+.why-us {
+  margin: 64px 0;
+}
+
+.why-us-title {
+  font-size: 28px;
+  line-height: 125%;
+}
 .why-us-list {
   list-style-type: none;
   padding: 0px;
   margin-top: 48px;
 }
 
-.why-us-item {
+.why-us-list-item {
   display: flex;
+}
+
+.why-us-list-item:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .why-us-icon-container {
@@ -226,28 +202,40 @@ h2 {
   font-size: 15px;
   line-height: 150%;
   color: #6b6b6c;
+  margin-bottom: 0;
+}
+
+.our-works {
+  margin: 64px 0;
 }
 
 .our-works-title {
-  font-family: Exo 2;
+  font-family: "Exo 2";
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 125%;
   color: #363738;
+  margin-bottom: 20px;
 }
 
-.our-works-first-deskription {
-  font-family: PT Sans;
+.our-works-first-description {
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 150%;
   color: #6b6b6c;
+  margin-bottom: 30px;
 }
 
-.our-works-deskription-title {
-  font-family: Exo 2;
+.our-works-shadow-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-works-description-title {
+  font-family: "Exo 2";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -256,28 +244,179 @@ h2 {
 }
 
 .our-works-second-text {
-  font-family: PT Sans;
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 150%;
 }
 
-.our-works-second-deskription {
+.our-works-second-description {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  width: 345px;
   padding: 24px;
   padding-bottom: 8px;
-  color: #6B6B6C;
+  color: #6b6b6c;
 }
 
-.our-works-second-deskription p strong {
-  font-family: Exo 2;
+.our-works-second-description p strong {
+  font-family: "Exo 2";
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 135%;
   margin-bottom: 0;
+  border-bottom: 3px solid #ffce50;
+  padding-bottom: 5px;
+}
+
+.carousel {
+  padding-bottom: 50px;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
+}
+.carousel-indicators [data-bs-target] {
+  background: #e9e9ec;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  opacity: 1;
+  border: 0;
+}
+
+.carousel-indicators [data-bs-target]::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 28px;
+  width: 28px;
+  border-radius: 28px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-indicators [data-bs-target].active {
+  background-color: #0b7572;
+}
+
+.carousel-indicators [data-bs-target].active::after {
+  border-color: #0b7572;
+}
+
+.contacts {
+  margin-top: 58px;
+}
+
+.contacts-title {
+  font-size: 28px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.contacts-list {
+  margin-top: 56px;
+  margin-bottom: 72px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts-list-item {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contacts-text-container {
+  margin-left: 40px;
+}
+
+.contacts-item-title {
+  color: #6b6b6c;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.contacts-item-link {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #363738;
+}
+
+.our-team {
+}
+
+.our-team-title {
+  margin-bottom: 32px;
+  font-size: 28px;
+  line-height: 125%;
+}
+
+.our-team-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.our-team-list-item {
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  background: #0b7572;
+  overflow: hidden;
+}
+
+.our-team-item-container {
+  display: flex;
+  margin-left: 20px;
+  background-color: white;
+  padding: 24px 21px 32px 16px;
+}
+
+.our-team-item-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.our-team-item-description {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.our-team-item-description img:not(:last-child) {
+  margin-right: 20px;
+}
+
+.our-team-item-position {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6b6b6c;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.our-team-item-position::after {
+  content: "";
+  width: 86px;
+  height: 3px;
+  background-color: #ffce50;
+  position: absolute;
+  left: 0px;
+  bottom: -6px;
 }
