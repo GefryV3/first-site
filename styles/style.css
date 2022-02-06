@@ -153,6 +153,15 @@ h5 {
   padding: 16px 0;
 }
 
+.clients-logo-list {
+  list-style-type: none;
+}
+
+.clients-logo-item {
+  text-align: center;
+  height: 176px;
+}
+
 .why-us {
   margin: 64px 0;
 }
@@ -352,6 +361,105 @@ h5 {
   color: #363738;
 }
 
+.proceedings-box {
+  background: #f9f9fb;
+  border-radius: 5px;
+  margin: 72px 16px 32px 16px;
+  padding: 40px 24px 48px 24px;
+}
+
+.proceedings-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proceedings-item:not(:last-child) {
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e9eaf2;
+}
+
+.proceedings-item-title {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 125%;
+  color: #6b6b6c;
+}
+
+.proceedings-item-information {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.your-info {
+  margin: 32px 15px 32px 15px;
+}
+
+.your-info-title {
+  margin-bottom: 32px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.your-info-description-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.your-info-text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  color: #363738;
+}
+
+.your-info-task {
+  margin-bottom: 44px;
+}
+
+.your-info-task-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.your-info-task-text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  color: #363738;
+}
+
+.your-info-photo-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 135%;
+  color: #363738;
+}
+
 .our-team {
 }
 
@@ -379,6 +487,10 @@ h5 {
   margin-left: 20px;
   background-color: white;
   padding: 24px 21px 32px 16px;
+}
+
+.our-team-list-item:not(:last-child) {
+  margin-bottom: 14px;
 }
 
 .our-team-item-title {
